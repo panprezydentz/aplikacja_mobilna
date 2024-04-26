@@ -6,7 +6,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.tasksWrapper}>
-        <Text style={style.sectionTitle}>Tytuł taska</Text>
+        <Text style={styles.sectionTitle}>Tytuł taska</Text>
         <View style={styles.items}>
           <Task text="Test 1"></Task>
         </View>
