@@ -19,7 +19,9 @@ export default function App() {
         <View style={styles.addWraper}>
           <Text style={styles.addText}>+</Text>
         </View>
+    
         </TouchableOpacity>
+    
         </KeyboardAvoidingView>
       </View>
   );
