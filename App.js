@@ -4,7 +4,7 @@ import Task from "./components/Task.js"
 
 export default function App() {
   const [task, setTask] = useState('');
-  const [taskItems, setTaskItems] = usteState([]);
+  const [taskItems, setTaskItems] = useState([]);
   
   const handleTask = () => {
     setTaskItems([...taskItems, task]);
